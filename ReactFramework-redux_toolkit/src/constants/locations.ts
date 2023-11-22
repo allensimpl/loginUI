@@ -4,5 +4,8 @@ export enum Locations {
 	FORGOT_PASSWORD = "/forgot-password",
 	RESET_PASSWORD = "/reset-password/:token",
 	RESET_PASSWORD_URL = "/reset-password",
-	DASHBOARD = "/dashboard"
+	DASHBOARD = "/dashboard",
+	STUDENTS = "/students",
+	STUDENT_PROFILE = "/profile",
+	PROFILE = "/profile"
 }

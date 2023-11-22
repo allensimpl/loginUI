@@ -1,0 +1,49 @@
+.student-container{
+    background: #005B41;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+.student-card{
+    background: #008170;
+    padding: 45px;
+    margin: 20px;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    color: rgb(252, 252, 252) !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(249, 250, 215);
+}
+
+.delete-button{
+    color: black;
+}
+
+
+/* CSS */
+.button-2 {
+  background-color: rgb(59, 122, 91);
+  border-radius: 8px;
+  border-width: 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

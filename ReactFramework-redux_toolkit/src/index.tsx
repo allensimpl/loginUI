@@ -7,13 +7,13 @@ import "./style.scss";
 import "./assets/color.scss";
 import "./assets/font.scss";
 import "antd/dist/antd.min.css";
-import { setupInterceptors } from "./middleware/network";
+// import { setupInterceptors } from "./middleware/network";
 import { Router } from "./router";
 
-setupInterceptors();
+// setupInterceptors();
 
 let container = document.getElementById("root");
-if(!container) {
+if (!container) {
 	container = document.createElement("div");
 	container.id = "root";
 	document.body.appendChild(container);
