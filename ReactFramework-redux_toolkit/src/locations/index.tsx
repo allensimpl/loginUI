@@ -2,18 +2,18 @@ import React from "react";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { ErrorBoundary } from "../plugins/error-boundary";
 import { Locations } from "../constants/locations";
-import { Students } from "../containers/students";
-import { StudentProfile } from "../containers/student-profile";
+import { Login } from "../containers/login";
+import { Profile } from "../containers/profile";
 
 export const webRouter = createBrowserRouter([
 	{
-		path: Locations.STUDENTS,
-		element: <Students />,
+		path: Locations.LOGIN,
+		element: <Login />,
 		errorElement: <ErrorBoundary />,
 	},
 	{
-		path: Locations.STUDENT_PROFILE + "/:id",
-		element: <StudentProfile />,
+		path: Locations.PROFILE,
+		element: <Profile />,
 		errorElement: <ErrorBoundary />,
 	},
 	{

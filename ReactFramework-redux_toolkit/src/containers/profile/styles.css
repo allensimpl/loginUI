@@ -1,0 +1,20 @@
+.profile-container{
+    background:     rgb(252, 165, 4);
+    height: 100vh;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+.profile{
+    background: rgb(100, 8, 54);
+    border-radius: 15px;
+    width:300px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    color: #e9dddd !important;
+}

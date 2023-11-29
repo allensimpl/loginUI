@@ -73,10 +73,7 @@ export const updateStudent = createAsyncThunk("updateStudent/", async ({ id, stu
 	const response = await axios.put(Config.apiUrl + `/students/${id}`, studentData);
 	return response.data;
 });
-  
 
-
-
-
-
-
+export const login = createAsyncThunk("login",ascync()=>{
+	
+})
